@@ -26,7 +26,7 @@ const Navbar = () => {
             </>
           ) : (
             <>
-              {session.user?.email}
+              {session.user?.name}
               <div className="dropdown dropdown-end">
                 <div
                   tabIndex={0}
@@ -36,7 +36,7 @@ const Navbar = () => {
                   <div className="w-10 rounded-full">
                     <img
                       alt="Tailwind CSS Navbar component"
-                      src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+                      src="images/1.jpg"
                     />
                   </div>
                 </div>
